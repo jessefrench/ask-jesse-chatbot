@@ -8,6 +8,8 @@ export default function App() {
   const chatWindowRef = useRef(null)
 
   const handleSubmit = useCallback(async (e) => {
+    const chatWindowHeight = chatWindowRef.current.scrollHeight
+    chatWindowRef.current.scrollTo(0, chatWindowHeight) 
     e.preventDefault()
     setMessages([...messages, { prompt, user: 'human' }])
     setShowHome(false)
@@ -23,8 +25,6 @@ export default function App() {
       setMessages(prevMessages => (
          [...prevMessages, { prompt: data.message, user: 'ai' }]
       ))
-      const chatWindowHeight = chatWindowRef.current.scrollHeight
-      chatWindowRef.current.scrollTo(0, chatWindowHeight) 
     } catch(error) {
       console.log(error)
     }
