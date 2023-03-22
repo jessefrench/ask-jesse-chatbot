@@ -35,6 +35,7 @@ export default function App() {
       <Head>
         <title>Ask Jesse</title>
         <link rel='icon' href='/wave.png' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
       </Head>
       {showHome && (
         <div id='home'>
