@@ -2,6 +2,7 @@
 An AI chatbot powered by OpenAI's GPT-3 natural language model. Logo inspired by early 2000's internet search legend Ask Jeeves.
 
 **Link to project:** https://askjesse.vercel.app
+
 ![ask-jesse](https://user-images.githubusercontent.com/106822556/227814166-506c98fb-d1bd-492d-91fb-0f5f44c21037.gif)
 
 ## How It's Made
