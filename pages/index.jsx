@@ -13,6 +13,7 @@ export default function App() {
     e.preventDefault()
     setMessages([...messages, { prompt, user: 'human' }])
     setShowHome(false)
+    setPrompt('')
     try {
       const response = await fetch('/api/generate', {
         method: 'POST',
@@ -81,7 +82,7 @@ export default function App() {
       <form onSubmit={handleSubmit}>
         <div className='input-container'>
           <input onChange={(e) => setPrompt(e.target.value)} name='prompt' value={prompt} placeholder='Ask me something...' />
-          <button type='submit'>⬆</button>
+          <button type='submit'>⬆️</button>
         </div>
       </form>
     </div>
