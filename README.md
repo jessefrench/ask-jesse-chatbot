@@ -2,7 +2,7 @@
 
 ### *UPDATE: The app doesn't currently work because my free API tokens have been maxed out :(*
 
-An AI chatbot powered by OpenAI's GPT-3 natural language model. Logo inspired by early 2000's internet search legend Ask Jeeves.
+An AI chatbot powered by OpenAI's GPT natural language model. Logo inspired by early 2000's internet search legend Ask Jeeves.
 
 **Link to project:** https://askjesse.vercel.app
 
